@@ -20,7 +20,7 @@ class App < Sinatra::Base
   end
 
   get '/first_exercise' do
-  
+
     session[:foo] = "hello"
     @session = session
       binding.pry
